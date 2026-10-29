@@ -1,5 +1,5 @@
 import streamlit as st
-from Fractal import *
+from fractal import *
 
 def uncheckBox(key):
     st.session_state[key] = False
